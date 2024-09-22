@@ -1,0 +1,33 @@
+.breadcrumbs {
+  font-size: 16px;
+  margin: 10px 0;
+  background-color: #f0f8ff;  /* Light background color for the contact section */
+
+  h1 {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 5px 0;
+  }
+
+  p {
+    margin: 5px 0;
+    color: #9d9d69; // Adjust color as needed
+  }
+
+  nav {
+    margin: 10px 0;
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    span {
+      color: #6c757d;
+    }
+  }
+}
