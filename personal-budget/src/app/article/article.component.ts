@@ -1,4 +1,4 @@
-import {Component, Input} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'pb-article',
@@ -8,7 +8,7 @@ import {Component, Input} from '@angular/core';
 export class ArticleComponent {
 
   @Input() title = 'Title';
-  @Input() content = 'Content';
+  @Input() content: string = "";
 
 
 }
